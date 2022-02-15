@@ -4,6 +4,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 7px 3px;
+  font-size: 14px;
 }
 
 .status-bar_column {
