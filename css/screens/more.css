@@ -1,0 +1,55 @@
+.user-component_text span {
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  border: 2px solid tomato;
+  margin-left: 4px;
+  font-size: 15px;
+  font-weight: 480;
+  color: tomato;
+}
+
+.user-component_subtitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions_title {
+  margin-bottom: 30px;
+}
+
+.more-suggestions_icons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12px;
+}
+
+.more-suggestions_icon img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  transition: all 2s ease-in-out;
+}
+
+.more-suggestions_icon img:hover {
+  border-radius: 50px;
+  transform: rotateX(360deg);
+}
+
+a {
+  color: black;
+}
