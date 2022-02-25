@@ -33,15 +33,16 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  font-size: 12px;
+  font-size: 7px;
 }
 
 .more-suggestions_icon img {
   height: 100px;
   width: 100px;
   object-fit: cover;
-  border-radius: 20px;
-  margin-bottom: 15px;
+  border-radius: 25px;
+  padding: 13px;
+  box-sizing: border-box;
   transition: all 2s ease-in-out;
 }
 
